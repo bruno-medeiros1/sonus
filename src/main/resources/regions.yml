@@ -1,0 +1,10 @@
+# ---------------------------------------------------
+#             Sonus - Region Data File
+# ---------------------------------------------------
+# This file stores the location data for all sound regions.
+# It is highly recommended to manage these regions using the in-game
+# commands (e.g., /sonus define <name>), as this file will be
+# automatically updated.
+# ---------------------------------------------------
+
+regions:

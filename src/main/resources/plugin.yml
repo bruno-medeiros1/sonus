@@ -1,0 +1,50 @@
+name: Sonus
+version: '0.0.0'
+main: org.bruno.sonus.Sonus
+api-version: '1.21'
+load: POSTWORLD
+folia-supported: true
+description: Bring your world to life by adding custom sounds to any defined region.
+website: https://www.spigotmc.org/resources/sonus.126002/
+commands:
+  sonus:
+    description: Main command for Sonus.
+    usage: /so <subcommand>
+    aliases: [ so ]
+
+permissions:
+  sonus.*:
+    description: "Grants access to all Sonus plugin features and commands."
+    default: op
+    children:
+      sonus.command.*:
+        description: "Allows the use of all Sonus commands."
+        default: op
+        children:
+          # Command Permissions
+          sonus.command.help:
+            default: true
+            description: "Allows the use of the /sonus help command."
+          sonus.command.reload:
+            default: op
+            description: "Allows reloading the plugin configuration."
+          sonus.command.wand:
+            default: op
+            description: "Allows getting the region selection wand with /sonus wand."
+          sonus.command.define:
+            default: op
+            description: "Allows defining new sound regions with /sonus define."
+          sonus.command.delete:
+            default: op
+            description: "Allows deleting sound regions with /sonus delete."
+          sonus.command.list:
+            default: op
+            description: "Allows listing all sound regions with /sonus list."
+          sonus.command.set:
+            default: op
+            description: "Allows binding a sound profile to a region."
+
+      # Feature Permissions
+      sonus.update.notify:
+        default: op
+        description: "Receives update notifications on join."

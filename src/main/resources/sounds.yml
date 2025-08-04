@@ -1,0 +1,55 @@
+# ---------------------------------------------------
+#             Sonus - Sound Configuration
+# ---------------------------------------------------
+# This file allows you to define custom sound profiles and assign them to the
+# regions you create in-game.
+#
+# After making changes, you can use /sonus reload to apply them.
+# ---------------------------------------------------
+
+# A list of all sound profiles that can be attached to regions.
+# You can create as many as you like. Each profile has the following options:
+#
+# sound: The ID of the sound to play. This can be a default Minecraft sound
+#        (e.g., "minecraft:ambient.cave") or a custom sound from a resource pack.
+#
+# source: (Optional) The sound category the sound will be played in. This allows
+#         players to control the volume in their client settings.
+#         Valid options: MASTER, MUSIC, RECORD, WEATHER, BLOCK, HOSTILE,
+#         NEUTRAL, PLAYER, AMBIENT, VOICE.
+#         Default: AMBIENT
+#
+# volume: (Optional) The volume of the sound, from 0.0 to 1.0.
+#         Default: 1.0
+#
+# pitch: (Optional) The pitch of the sound, from 0.5 (low) to 2.0 (high).
+#         Default: 1.0
+#
+# loop: (Optional) Set to true if you want the sound to repeat.
+#         Default: false
+#
+# loop-time: (Optional) If loop is true, this is the delay in seconds
+#         before the sound plays again.
+#         Default: 60
+sound-profiles:
+  HAUNTED_FOREST:
+    sound: "minecraft:ambient.cave"
+    source: AMBIENT
+    volume: 0.8
+    pitch: 0.7
+    loop: true
+    loop-time: 1 # in seconds
+
+  MARKETPLACE_CROWD:
+    sound: "custom.marketplace_ambiance" # From a resource pack
+    source: AMBIENT
+    volume: 1.0
+    pitch: 1.0
+    loop: true
+    loop-time: 120
+
+# A list of which sound profile is attached to which region.
+# Use the in-game command /sonus define <region_name> to create a region,
+# and then /sonus set <region_name> <profile_name> to assign a sound.
+# You can also edit this file manually.
+region-sounds:
