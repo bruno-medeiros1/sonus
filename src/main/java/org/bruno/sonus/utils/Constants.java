@@ -6,7 +6,7 @@ public final class Constants {
 
     public static final class Integrations {
         public static final int BSTATS_ID = 26769;
-        public static final int SPIGOT_RESOURCE_ID = 126002; // TODO: Update value once the resource is created in SpigotMC
+        public static final int SPIGOT_RESOURCE_ID = 127683;
     }
 
     public static final class Files {

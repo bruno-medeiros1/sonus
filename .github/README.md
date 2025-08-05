@@ -1,7 +1,7 @@
 > [!NOTE]
 > PLEASE READ THE RESOURCE OVERVIEW BEFORE DOWNLOADING THE PLUGIN TO SEE IF THIS PLUGIN FITS YOUR NEEDS. IF YOU HAVE ANY QUESTIONS, JOIN MY [DISCORD](https://discord.com/invite/Y99qmZRVe6) SERVER AND CREATE A TICKET.
 
-[Spigot](https://www.spigotmc.org/resources/126002/) | [Modrinth](https://modrinth.com/plugin/sonus) | [Discord](https://discord.com/invite/Y99qmZRVe6) | [Wiki](https://github.com/bruno-medeiros1/sonus/wiki)
+[Spigot](https://www.spigotmc.org/resources/127683/) | [Modrinth](https://modrinth.com/plugin/sonus-plugin) | [Discord](https://discord.com/invite/Y99qmZRVe6) | [Wiki](https://github.com/bruno-medeiros1/sonus/wiki)
 
 ## Sonus
 Sonus is a powerful yet lightweight plugin compatible with Spigot, Paper, Purpur, and Folia servers, designed to create immersive audio experiences. It allows you to define custom regions within your world and attach specific sounds, music, or effects to them. From the bustling noise of a marketplace to the eerie whispers of a haunted forest, Sonus gives you the tools to bring your world to life with sound.

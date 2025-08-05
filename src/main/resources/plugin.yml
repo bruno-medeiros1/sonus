@@ -5,7 +5,7 @@ api-version: '1.21'
 load: POSTWORLD
 folia-supported: true
 description: Bring your world to life by adding custom sounds to any defined region.
-website: https://www.spigotmc.org/resources/sonus.126002/
+website: https://www.spigotmc.org/resources/127683/
 commands:
   sonus:
     description: Main command for Sonus.

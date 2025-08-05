@@ -30,7 +30,7 @@ public class MessagesHelper {
      * @param latestVersion The latest version string to display.
      */
     public void sendUpdateNotification(Player player, String latestVersion) {
-        String downloadUrl = "https://www.spigotmc.org/resources/126002/";
+        String downloadUrl = "https://www.spigotmc.org/resources/127683/";
 
         String text = this.pluginPrefix + "§7A new version is available (§av" + latestVersion + "§7)! ";
 
