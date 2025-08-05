@@ -46,14 +46,14 @@ public final class MessagesHandler {
         this.reloadSuccess = fileConfiguration.getString("reload-success", "&aPlugin successfully reloaded! All configuration files are up to date.");
 
         // Region Command Messages
-        this.regionDefined = fileConfiguration.getString("region-defined", "&aSuccessfully defined new sound region '{0}'!");
+        this.regionDefined = fileConfiguration.getString("region-defined", "&aSuccessfully defined new sound region '{0}'! &7Use &b/so set {0} <sound> &7to bind a sound to the region.");
         this.regionDeleted = fileConfiguration.getString("region-deleted", "&aSuccessfully deleted sound region '{0}'.");
         this.regionAlreadyExists = fileConfiguration.getString("region-already-exists", "&cError: A region with the name '{0}' already exists.");
         this.regionNotFound = fileConfiguration.getString("region-not-found", "&cError: No region found with the name '{0}'.");
         this.noRegionsDefined = fileConfiguration.getString("no-regions-defined", "&7There are no sound regions defined yet.");
         this.wandGiven = fileConfiguration.getString("wand-given", "&aYou have been given the region selection wand.");
-        this.pos1Set = fileConfiguration.getString("pos1-set", "&ePosition 1 set. Now select the second corner.");
-        this.pos2Set = fileConfiguration.getString("pos2-set", "&ePosition 2 set. Use /sonus define <name> to create the region.");
+        this.pos1Set = fileConfiguration.getString("pos1-set", "&7Position 1 set. Now select the second corner.");
+        this.pos2Set = fileConfiguration.getString("pos2-set", "&7Position 2 set. Use &b/so define <name> &7to create the region.");
     }
 
     public String getPrefix() { return prefix; }

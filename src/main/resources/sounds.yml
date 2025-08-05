@@ -2,7 +2,8 @@
 #             Sonus - Sound Configuration
 # ---------------------------------------------------
 # This file allows you to define custom sound profiles and assign them to the
-# regions you create in-game.
+# regions you create in-game. To add custom sounds check out this guide
+# https://github.com/bruno-medeiros1/sonus/wiki/Adding-Custom-Sounds
 #
 # After making changes, you can use /sonus reload to apply them.
 # ---------------------------------------------------

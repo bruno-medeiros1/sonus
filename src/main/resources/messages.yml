@@ -14,15 +14,15 @@ prefix: "&#B0D0FFSonus &b» "
 no-permission: "&cYou do not have permission to perform this action."
 
 # Reload Command Message
-reload-start: "&eReloading Sonus... Please wait."
+reload-start: "&bReloading Sonus... Please wait."
 reload-success: "&aPlugin successfully reloaded! All configuration files are up to date."
 
 # Region Command Messages
-region-defined: "&aSuccessfully defined new sound region '{0}'!"
+region-defined: "&aSuccessfully defined new sound region '{0}'! &7Use &b/so set {0} <sound> &7to bind a sound to the region."
 region-deleted: "&aSuccessfully deleted sound region '{0}'."
 region-already-exists: "&cError: A region with the name '{0}' already exists."
 region-not-found: "&cError: No region found with the name '{0}'."
 no-regions-defined: "&7There are no sound regions defined yet."
 wand-given: "&aYou have been given the region selection wand."
-pos1-set: "&bPosition 1 set. Now select the second corner."
-pos2-set: "&bPosition 2 set. Use /sonus define <name> to create the region."
+pos1-set: "&7Position 1 set. Now select the second corner."
+pos2-set: "&7Position 2 set. Use &b/so define <name> &7to create the region."

@@ -1,5 +1,5 @@
 name: Sonus
-version: '0.0.0'
+version: '0.0.1'
 main: org.bruno.sonus.Sonus
 api-version: '1.21'
 load: POSTWORLD
