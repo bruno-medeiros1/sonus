@@ -137,7 +137,7 @@ public final class Sonus extends JavaPlugin {
         getLogger().info("Registering event listeners...");
 
         // Initialize all listeners and store their instances
-        var playerConnectionListener = new PlayerConnectionListener(this.soundHandler);
+        var playerConnectionListener = new PlayerConnectionListener(this.soundHandler, this.messagesHelper, this.configHandler, this.pluginInfoHandler);
         var wandListener = new WandListener(this, this.selectionHandler, this.messagesHelper, this.messagesHandler);
 
         // Register all listeners instances
